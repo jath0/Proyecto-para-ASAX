@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C07DC59D-5D66-FA78-1F57-B79BE3092F33" name="metodo_pago_estudiante">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-11 21:25:31 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="B1B97C41-210B-7CC7-66B1-405D9A66477C">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-11 21:25:52 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

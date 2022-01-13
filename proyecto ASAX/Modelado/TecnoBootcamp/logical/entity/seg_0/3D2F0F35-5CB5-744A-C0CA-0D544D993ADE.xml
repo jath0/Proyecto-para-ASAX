@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D2F0F35-5CB5-744A-C0CA-0D544D993ADE" name="bootcamp">
+<createdBy>admin</createdBy>
+<createdTime>2022-01-03 15:59:54 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="B30A8367-EEB6-48CB-2127-9C0AA70A8D1C">
+<createdBy>admin</createdBy>
+<createdTime>2022-01-03 16:00:16 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="2CA25A67-C1B6-2111-9B99-D7593B884540">
+<createdBy>admin</createdBy>
+<createdTime>2022-01-03 16:02:32 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="duración" id="17148FE1-E7B0-A667-B73C-C14803D60FE0">
+<createdBy>admin</createdBy>
+<createdTime>2022-01-03 16:00:45 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horario" id="A46F3E20-8119-026E-1935-627461057251">
+<createdBy>admin</createdBy>
+<createdTime>2022-01-03 16:03:54 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_inicio" id="723065E6-0656-5838-6BAA-E901679E6F87">
+<createdBy>admin</createdBy>
+<createdTime>2022-01-03 16:04:11 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="D41BDCDD-B7F7-AEE2-7DB8-709BBC78D266">
+<createdBy>admin</createdBy>
+<createdTime>2022-01-03 16:07:53 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

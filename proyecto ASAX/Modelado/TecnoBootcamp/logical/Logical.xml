@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="06903439-6EE5-11D2-6878-E9C45712A632" mainViewID="F1236A67-26CD-8CE5-0783-939882C37729">
+<createdBy>admin</createdBy>
+<createdTime>2022-01-03 15:26:29 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

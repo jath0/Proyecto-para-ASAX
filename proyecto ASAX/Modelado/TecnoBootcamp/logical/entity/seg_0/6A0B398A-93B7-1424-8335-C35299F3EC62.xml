@@ -1,0 +1,30 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A0B398A-93B7-1424-8335-C35299F3EC62" name="paypal">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-11 21:28:34 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="login_paypal" id="E6972DEF-85CC-6DF9-B25D-60B93A434750">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-11 21:28:48 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

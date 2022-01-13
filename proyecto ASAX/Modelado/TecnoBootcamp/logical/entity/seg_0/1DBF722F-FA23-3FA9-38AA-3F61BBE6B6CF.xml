@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1DBF722F-FA23-3FA9-38AA-3F61BBE6B6CF" name="pago">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-11 21:16:39 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="229BDC73-E415-4A98-C843-24814D5C86D2">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-11 21:16:54 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="3ED1DC9F-8C49-4189-E6D6-28BF750204DC">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-11 21:30:30 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha _pago" id="8F1694F3-D563-7618-642D-142EA5F58232">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-11 21:16:57 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_bootcamp" id="DB685F1D-A003-F2B1-C58B-2F9A30A93E0A">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-11 21:20:30 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="otros detalles" id="D84E23FF-A5F9-04AB-2F3C-159DDB84B361">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-11 21:21:16 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="moneda" id="69AA9043-7986-2A97-0496-73E26E80AAED">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-11 21:31:27 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
