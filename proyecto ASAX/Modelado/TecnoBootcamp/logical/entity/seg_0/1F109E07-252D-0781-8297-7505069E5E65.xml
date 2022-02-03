@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6A0B398A-93B7-1424-8335-C35299F3EC62" name="paypal">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1F109E07-252D-0781-8297-7505069E5E65" name="bootcamp_campus">
 <createdBy>usuario</createdBy>
-<createdTime>2022-01-11 21:28:34 UTC</createdTime>
+<createdTime>2022-02-03 18:05:44 UTC</createdTime>
 <ownerDesignName>TecnoBootcamp</ownerDesignName>
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
@@ -15,31 +15,33 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="login_paypal" id="E6972DEF-85CC-6DF9-B25D-60B93A434750">
+<Attribute name="id_bootcamp" id="F1DB1BAD-4A3C-C30D-A5F3-54A18A692E6B">
 <createdBy>usuario</createdBy>
-<createdTime>2022-01-11 21:28:48 UTC</createdTime>
+<createdTime>2022-02-03 18:05:56 UTC</createdTime>
+<generatorID>B696B8F7-2F08-F6E2-827C-E06E39BB3CA9</generatorID>
 <ownerDesignName>TecnoBootcamp</ownerDesignName>
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
+<referedAttribute>B30A8367-EEB6-48CB-2127-9C0AA70A8D1C</referedAttribute>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>558B949B-C694-B32A-B25B-7D9F52FA395A</domain>
+<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_campus" id="53E2B7D3-462F-C70E-D44E-A9D958D2D3EA">
+<createdBy>usuario</createdBy>
+<createdTime>2022-02-03 18:06:03 UTC</createdTime>
+<generatorID>E03BED21-68F9-52A6-7B23-D407B616A370</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<referedAttribute>F7E5EBC4-61CC-06C2-E5C1-B17C5A9DBD2F</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
-<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="58D213BB-EFE4-B233-A50F-47588F3D7732" name="paypal PK">
-<createdBy>usuario</createdBy>
-<createdTime>2022-01-17 19:40:20 UTC</createdTime>
-<ownerDesignName>TecnoBootcamp</ownerDesignName>
-<engineerTo>
-<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
-</engineerTo>
-<pk>true</pk>
-<usedAttributes>
-<attributeRef>E6972DEF-85CC-6DF9-B25D-60B93A434750</attributeRef>
-</usedAttributes>
-</identifier>
-</identifiers>
 </Entity>

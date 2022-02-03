@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_17" directorySegmentName="seg_0" id="F7DA15CE-1A37-F807-DEEB-C7751FA96920">
+<createdBy>usuario</createdBy>
+<createdTime>2022-02-03 18:26:10 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<sourcePk>32FE1D13-C2F7-BA3B-120D-50288FAB6FBC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>64570DCB-2F8F-7527-ADED-AE166C3360E5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>C07DC59D-5D66-FA78-1F57-B79BE3092F33</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

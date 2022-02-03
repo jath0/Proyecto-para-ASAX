@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3162F4D-FE01-E768-81BF-9CC60C740AC4" name="modulo">
-<createdBy>admin</createdBy>
-<createdTime>2022-01-03 16:07:06 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6312E54F-A193-4DFC-6781-9AFA182768A7" name="no_evaluable">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-14 11:40:55 UTC</createdTime>
 <ownerDesignName>TecnoBootcamp</ownerDesignName>
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_módulo" id="900ED55C-7937-E2B8-68B3-AE1E19F27E46">
-<createdBy>admin</createdBy>
-<createdTime>2022-01-03 16:07:27 UTC</createdTime>
+<Attribute name="id_noeval" id="F78FFE50-32AE-53CF-2BB9-A00BAEDFB33E">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-14 11:40:55 UTC</createdTime>
 <ownerDesignName>TecnoBootcamp</ownerDesignName>
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
@@ -27,21 +27,9 @@
 <domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="D1D6FB3C-CAB6-5561-BB4C-3DDE6968C1CF">
-<createdBy>admin</createdBy>
-<createdTime>2022-01-03 16:07:31 UTC</createdTime>
-<ownerDesignName>TecnoBootcamp</ownerDesignName>
-<engineerTo>
-<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
-</engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>DA4941E7-407B-7514-7DB3-AA2E60E8EADE</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="descripcion" id="7472C35A-2421-6611-4C90-886CFECABEE2">
-<createdBy>admin</createdBy>
-<createdTime>2022-01-03 16:07:35 UTC</createdTime>
+<Attribute name="enunciado" id="4289A2C1-FC33-DE11-A420-AD6757158200">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-14 11:40:55 UTC</createdTime>
 <ownerDesignName>TecnoBootcamp</ownerDesignName>
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
@@ -51,9 +39,9 @@
 <domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="estado" id="DAA1EDCE-C815-0C22-CBA9-C7EAEBD9E152">
+<Attribute name="respuesta" id="042DAD4B-7FBB-AF10-6714-3D23DFC64182">
 <createdBy>usuario</createdBy>
-<createdTime>2022-01-14 11:44:03 UTC</createdTime>
+<createdTime>2022-01-14 11:40:55 UTC</createdTime>
 <ownerDesignName>TecnoBootcamp</ownerDesignName>
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
@@ -63,15 +51,39 @@
 <domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_bootcamp" id="CD47D2AC-DB55-E751-30DE-274FCF0106DC">
+<Attribute name="comentario" id="9A9B53B1-2349-E514-D2A9-06E63B2878D6">
 <createdBy>usuario</createdBy>
-<createdTime>2022-02-03 18:07:47 UTC</createdTime>
-<generatorID>0A2B889B-91C4-0F0A-2D63-C633D5273BE5</generatorID>
+<createdTime>2022-01-14 11:40:55 UTC</createdTime>
 <ownerDesignName>TecnoBootcamp</ownerDesignName>
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<referedAttribute>B30A8367-EEB6-48CB-2127-9C0AA70A8D1C</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estado" id="B1CDE01C-866C-A3DB-FAEA-D0822DCB923E">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-14 11:41:40 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_módulo" id="9B2FD08E-B1C4-7FE8-25F6-D60869C9F33F">
+<createdBy>usuario</createdBy>
+<createdTime>2022-02-03 18:20:27 UTC</createdTime>
+<generatorID>96BCD26F-F1B6-6B15-3DF6-F6EC3780AD1C</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<referedAttribute>900ED55C-7937-E2B8-68B3-AE1E19F27E46</referedAttribute>
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
@@ -79,16 +91,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1851C5AC-8B99-206A-6845-B31B3179A2F6" name="modulo PK">
+<identifier id="09E8509A-D077-B591-037B-594B0B093CA8" name="no_evaluable PK">
 <createdBy>usuario</createdBy>
-<createdTime>2022-01-17 19:55:24 UTC</createdTime>
+<createdTime>2022-01-17 19:55:48 UTC</createdTime>
 <ownerDesignName>TecnoBootcamp</ownerDesignName>
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>900ED55C-7937-E2B8-68B3-AE1E19F27E46</attributeRef>
+<attributeRef>F78FFE50-32AE-53CF-2BB9-A00BAEDFB33E</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

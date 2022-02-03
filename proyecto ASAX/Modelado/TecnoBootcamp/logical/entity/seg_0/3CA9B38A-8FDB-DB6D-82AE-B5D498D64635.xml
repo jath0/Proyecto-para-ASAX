@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A3162F4D-FE01-E768-81BF-9CC60C740AC4" name="modulo">
-<createdBy>admin</createdBy>
-<createdTime>2022-01-03 16:07:06 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3CA9B38A-8FDB-DB6D-82AE-B5D498D64635" name="campus">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-17 12:06:45 UTC</createdTime>
 <ownerDesignName>TecnoBootcamp</ownerDesignName>
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_módulo" id="900ED55C-7937-E2B8-68B3-AE1E19F27E46">
-<createdBy>admin</createdBy>
-<createdTime>2022-01-03 16:07:27 UTC</createdTime>
+<Attribute name="id_campus" id="F7E5EBC4-61CC-06C2-E5C1-B17C5A9DBD2F">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-17 12:09:37 UTC</createdTime>
 <ownerDesignName>TecnoBootcamp</ownerDesignName>
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
@@ -27,9 +27,9 @@
 <domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="nombre" id="D1D6FB3C-CAB6-5561-BB4C-3DDE6968C1CF">
-<createdBy>admin</createdBy>
-<createdTime>2022-01-03 16:07:31 UTC</createdTime>
+<Attribute name="nombre" id="E9114B4C-E1EF-9D78-3CCD-6B5D7570E635">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-17 12:09:42 UTC</createdTime>
 <ownerDesignName>TecnoBootcamp</ownerDesignName>
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
@@ -39,9 +39,21 @@
 <domain>DA4941E7-407B-7514-7DB3-AA2E60E8EADE</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="descripcion" id="7472C35A-2421-6611-4C90-886CFECABEE2">
-<createdBy>admin</createdBy>
-<createdTime>2022-01-03 16:07:35 UTC</createdTime>
+<Attribute name="ciudad" id="8FB7E6FE-171F-1CB9-C3D2-F8059C82EFB1">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-17 12:09:57 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA4941E7-407B-7514-7DB3-AA2E60E8EADE</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="FEC6F4CE-1F4B-B31C-735C-A98A39722622">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-17 12:10:08 UTC</createdTime>
 <ownerDesignName>TecnoBootcamp</ownerDesignName>
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
@@ -49,46 +61,20 @@
 <use>0</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="estado" id="DAA1EDCE-C815-0C22-CBA9-C7EAEBD9E152">
-<createdBy>usuario</createdBy>
-<createdTime>2022-01-14 11:44:03 UTC</createdTime>
-<ownerDesignName>TecnoBootcamp</ownerDesignName>
-<engineerTo>
-<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
-</engineerTo>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_bootcamp" id="CD47D2AC-DB55-E751-30DE-274FCF0106DC">
-<createdBy>usuario</createdBy>
-<createdTime>2022-02-03 18:07:47 UTC</createdTime>
-<generatorID>0A2B889B-91C4-0F0A-2D63-C633D5273BE5</generatorID>
-<ownerDesignName>TecnoBootcamp</ownerDesignName>
-<engineerTo>
-<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
-</engineerTo>
-<referedAttribute>B30A8367-EEB6-48CB-2127-9C0AA70A8D1C</referedAttribute>
-<use>0</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="1851C5AC-8B99-206A-6845-B31B3179A2F6" name="modulo PK">
+<identifier id="EF643CA5-6337-C12C-88CD-3A8FB7623656" name="campus PK">
 <createdBy>usuario</createdBy>
-<createdTime>2022-01-17 19:55:24 UTC</createdTime>
+<createdTime>2022-01-17 19:48:13 UTC</createdTime>
 <ownerDesignName>TecnoBootcamp</ownerDesignName>
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>900ED55C-7937-E2B8-68B3-AE1E19F27E46</attributeRef>
+<attributeRef>F7E5EBC4-61CC-06C2-E5C1-B17C5A9DBD2F</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

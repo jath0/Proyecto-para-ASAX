@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C07DC59D-5D66-FA78-1F57-B79BE3092F33" name="metodo_pago_estudiante">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C07DC59D-5D66-FA78-1F57-B79BE3092F33" name="metodo_pago">
 <createdBy>usuario</createdBy>
 <createdTime>2022-01-11 21:25:31 UTC</createdTime>
 <ownerDesignName>TecnoBootcamp</ownerDesignName>
@@ -15,16 +15,73 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="B1B97C41-210B-7CC7-66B1-405D9A66477C">
+<Attribute name="id_metodopago" id="1DD5354F-EC14-433D-391E-F9A7DC474B57">
 <createdBy>usuario</createdBy>
-<createdTime>2022-01-11 21:25:52 UTC</createdTime>
+<createdTime>2022-02-03 18:25:36 UTC</createdTime>
 <ownerDesignName>TecnoBootcamp</ownerDesignName>
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_estudiante" id="A08784F9-A41F-4093-F163-046662BC12D1">
+<createdBy>usuario</createdBy>
+<createdTime>2022-02-03 18:26:10 UTC</createdTime>
+<generatorID>F7DA15CE-1A37-F807-DEEB-C7751FA96920</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<referedAttribute>63C7621C-2020-E44A-6CF3-84286A90AE8B</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_tarjeta" id="30B48095-8BD4-E7E1-C58D-0A6A778F7F5D">
+<createdBy>usuario</createdBy>
+<createdTime>2022-02-03 18:26:22 UTC</createdTime>
+<generatorID>FA41485B-5077-3383-3050-7E9C219910FB</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<referedAttribute>FE0DBC03-C6CE-9DC5-A620-D9CFB0E7D8CB</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="login_paypal" id="826DD1DE-462F-0043-57C4-26F18B4DF877">
+<createdBy>usuario</createdBy>
+<createdTime>2022-02-03 18:26:30 UTC</createdTime>
+<generatorID>FE2174DE-6F5A-5307-87EB-AACDF8288832</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<referedAttribute>E6972DEF-85CC-6DF9-B25D-60B93A434750</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>558B949B-C694-B32A-B25B-7D9F52FA395A</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E2B74D40-FBAB-DACC-4EBB-0A57669BE92D" name="metodo_pago PK">
+<createdBy>usuario</createdBy>
+<createdTime>2022-02-03 18:25:59 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1DD5354F-EC14-433D-391E-F9A7DC474B57</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>

@@ -15,17 +15,17 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="B30A8367-EEB6-48CB-2127-9C0AA70A8D1C">
+<Attribute name="id_bootcamp" id="B30A8367-EEB6-48CB-2127-9C0AA70A8D1C">
 <createdBy>admin</createdBy>
 <createdTime>2022-01-03 16:00:16 UTC</createdTime>
 <ownerDesignName>TecnoBootcamp</ownerDesignName>
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="2CA25A67-C1B6-2111-9B99-D7593B884540">
@@ -35,8 +35,9 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>DA4941E7-407B-7514-7DB3-AA2E60E8EADE</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="duración" id="17148FE1-E7B0-A667-B73C-C14803D60FE0">
@@ -46,8 +47,9 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="horario" id="A46F3E20-8119-026E-1935-627461057251">
@@ -57,8 +59,9 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha_inicio" id="723065E6-0656-5838-6BAA-E901679E6F87">
@@ -68,8 +71,9 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<domain>70C7649C-89C1-4953-26D5-A51EADE2A6FF</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="descripcion" id="D41BDCDD-B7F7-AEE2-7DB8-709BBC78D266">
@@ -79,9 +83,36 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo" id="88DD5F80-647C-D9C6-7275-14F77E8A1BF8">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-17 12:05:58 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="44F54397-E421-D868-F06D-636F97416244" name="bootcamp PK">
+<createdBy>usuario</createdBy>
+<createdTime>2022-01-17 19:46:17 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B30A8367-EEB6-48CB-2127-9C0AA70A8D1C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
 </Entity>
