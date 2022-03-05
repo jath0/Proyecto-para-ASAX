@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EBC31C30-149A-9512-7208-7CE8776E81EA" containerWithKeyObject="F1B01611-C0FB-B6C4-56F5-E099007116B9" localFKIndex="C34018C1-0289-582B-FC26-F21E8646BF10" name="no_evaluable_modulo_FK">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>96BCD26F-F1B6-6B15-3DF6-F6EC3780AD1C</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<referredTableLongName>modulo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>347EF8D8-60AC-087B-8A3E-9202DC08E217</referredTableID>
+<keyObject>396A6135-A9B4-229A-CFB5-F90F93E1BD79</keyObject>
+<referredKeyID>396A6135-A9B4-229A-CFB5-F90F93E1BD79</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_módulo</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

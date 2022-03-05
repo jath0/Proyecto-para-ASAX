@@ -22,10 +22,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>558B949B-C694-B32A-B25B-7D9F52FA395A</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

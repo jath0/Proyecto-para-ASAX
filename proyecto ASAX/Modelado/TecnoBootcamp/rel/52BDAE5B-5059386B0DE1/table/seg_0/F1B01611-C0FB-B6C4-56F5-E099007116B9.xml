@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1B01611-C0FB-B6C4-56F5-E099007116B9" name="no_evaluable">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>6312E54F-A193-4DFC-6781-9AFA182768A7</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_noeval" id="5750BF6B-6274-42E3-53CD-B5DAE780C2B7">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>F78FFE50-32AE-53CF-2BB9-A00BAEDFB33E</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="enunciado" id="376A0207-7DB4-0E60-339E-C43DF2BE483F">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>4289A2C1-FC33-DE11-A420-AD6757158200</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1200</dataTypeSize>
+<ownDataTypeParameters>1200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="respuesta" id="479224F2-80ED-FAE1-9F62-DD41F388BBCA">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>042DAD4B-7FBB-AF10-6714-3D23DFC64182</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1200</dataTypeSize>
+<ownDataTypeParameters>1200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comentario" id="AAF82E2E-6BEF-BB0E-E161-F16237224B72">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>9A9B53B1-2349-E514-D2A9-06E63B2878D6</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1200</dataTypeSize>
+<ownDataTypeParameters>1200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estado" id="FE7DA955-8D3E-905B-4851-9D9D75FE012C">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>B1CDE01C-866C-A3DB-FAEA-D0822DCB923E</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="modulo_id_módulo" id="B3B45810-C3DA-B88B-51AA-0E3C3C15D816">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>9B2FD08E-B1C4-7FE8-25F6-D60869C9F33F</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBC31C30-149A-9512-7208-7CE8776E81EA" referredColumn="7648DDA6-2CE7-F335-06E5-A0CDEE6B90C0"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="14F6FD54-0595-A01B-DA99-6E3AE5A969B3" name="no_evaluable_PK">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>09E8509A-D077-B591-037B-594B0B093CA8</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5750BF6B-6274-42E3-53CD-B5DAE780C2B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C34018C1-0289-582B-FC26-F21E8646BF10" name="no_evaluable_modulo_FK">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>96BCD26F-F1B6-6B15-3DF6-F6EC3780AD1C</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3B45810-C3DA-B88B-51AA-0E3C3C15D816"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

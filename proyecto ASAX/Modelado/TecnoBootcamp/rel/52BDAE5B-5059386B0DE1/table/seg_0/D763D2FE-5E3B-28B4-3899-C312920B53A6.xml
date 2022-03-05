@@ -1,0 +1,119 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D763D2FE-5E3B-28B4-3899-C312920B53A6" name="metodo_pago">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>C07DC59D-5D66-FA78-1F57-B79BE3092F33</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_metodopago" id="4037E373-4453-6C10-94D8-1A874B8B6A22">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>1DD5354F-EC14-433D-391E-F9A7DC474B57</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estudiante_id_estudiante" id="30453D65-A9EC-2590-A0A6-8D41DB531001">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>A08784F9-A41F-4093-F163-046662BC12D1</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0962B8E5-4B72-5A61-26C1-5D4FFD683F38" referredColumn="AA76ED70-827C-F998-60B2-F33F38790669"/>
+</associations>
+</Column>
+<Column name="tarjeta_id_tarjeta" id="C126ED6C-7304-6472-F1D4-B66242E5D280">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>30B48095-8BD4-E7E1-C58D-0A6A778F7F5D</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC1E8759-1EE3-B7FF-369D-838A3376046C" referredColumn="F75F0AA6-E908-C60A-C6EA-D71DD1BE21B1"/>
+</associations>
+</Column>
+<Column name="paypal_login_paypal" id="F0063C3D-A9B9-5518-667B-B2BA1D9F13EF">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>826DD1DE-462F-0043-57C4-26F18B4DF877</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EC50CD6E-5C7C-A36F-877B-D043B36ECE4D" referredColumn="75B68090-EBC3-D3C3-25F6-CB92236DCA9F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BCCC651-5657-AB15-2F45-6D28043CF6FF" name="metodo_pago_PK">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>E2B74D40-FBAB-DACC-4EBB-0A57669BE92D</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4037E373-4453-6C10-94D8-1A874B8B6A22"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D493A600-1963-88BB-8CEB-472B7FE3D737" name="metodo_pago_estudiante_FK">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>F7DA15CE-1A37-F807-DEEB-C7751FA96920</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="30453D65-A9EC-2590-A0A6-8D41DB531001"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BF7108D8-8D64-8C7F-0396-51D5068A7A56" name="metodo_pago_tarjeta_FK">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>FA41485B-5077-3383-3050-7E9C219910FB</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C126ED6C-7304-6472-F1D4-B66242E5D280"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="69EB5065-BBD5-E672-87B8-A3185A2FC8AC" name="metodo_pago_paypal_FK">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>FE2174DE-6F5A-5307-87EB-AACDF8288832</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F0063C3D-A9B9-5518-667B-B2BA1D9F13EF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

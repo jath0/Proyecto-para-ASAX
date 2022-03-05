@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DC1E8759-1EE3-B7FF-369D-838A3376046C" containerWithKeyObject="D763D2FE-5E3B-28B4-3899-C312920B53A6" localFKIndex="BF7108D8-8D64-8C7F-0396-51D5068A7A56" name="metodo_pago_tarjeta_FK">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>FA41485B-5077-3383-3050-7E9C219910FB</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<referredTableLongName>tarjeta</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D8E8B493-3F4A-9ECF-4AA0-9FBFDB1B6E45</referredTableID>
+<keyObject>7C456F36-1893-462E-1037-86B218C3C9AF</keyObject>
+<referredKeyID>7C456F36-1893-462E-1037-86B218C3C9AF</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_tarjeta</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

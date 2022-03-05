@@ -22,10 +22,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="E9114B4C-E1EF-9D78-3CCD-6B5D7570E635">
 <createdBy>usuario</createdBy>
@@ -34,10 +35,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>DA4941E7-407B-7514-7DB3-AA2E60E8EADE</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="ciudad" id="8FB7E6FE-171F-1CB9-C3D2-F8059C82EFB1">
 <createdBy>usuario</createdBy>
@@ -46,10 +48,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>DA4941E7-407B-7514-7DB3-AA2E60E8EADE</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="direccion" id="FEC6F4CE-1F4B-B31C-735C-A98A39722622">
 <createdBy>usuario</createdBy>
@@ -58,10 +61,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

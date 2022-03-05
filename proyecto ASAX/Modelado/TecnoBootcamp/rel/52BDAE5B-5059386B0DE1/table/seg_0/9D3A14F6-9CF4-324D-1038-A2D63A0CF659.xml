@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9D3A14F6-9CF4-324D-1038-A2D63A0CF659" name="matriculado">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>3BB47F1D-FD34-EF4F-F45B-2B6ABE8BCD7D</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="13207AAE-9BA8-7E70-3913-0FD062ACE727">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>37A2A551-EADE-FAB2-938E-3CB617FEFA7E</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numeroPlaza" id="8E874860-024F-14C7-2F68-113A8C5A2794">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>EC9834AD-0605-01F9-191F-1FB4560C9442</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="añoMatricula" id="479B0820-881F-F343-14DE-4AC286D44E7B">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>1288F7CD-32B6-8242-BEFF-CE4CCBD28963</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="bootcamp_id_bootcamp" id="5376EFA8-C7D5-3018-E35E-0330CE2DDC3F">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>6D78B604-453B-A68A-835B-A77A29F1F010</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC281EEA-2911-16C5-1F54-22C1AB7E3CFF" referredColumn="02C09A8E-1F35-45BD-59FC-4A9FB67FF7D6"/>
+</associations>
+</Column>
+<Column name="estudiante_id_estudiante" id="3B11A1B3-4EC3-DA4E-BA8B-C90FFB9202AD">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>C00CA0E9-9830-FBCF-B2E0-615B08E90FA1</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="81248A22-ECB4-D4BE-0CE0-7D76574BA943" referredColumn="AA76ED70-827C-F998-60B2-F33F38790669"/>
+</associations>
+</Column>
+<Column name="pago_id_pago" id="D8E9BB9F-8D9C-91BC-73A6-08D1D30D7CAD">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>DE61FC40-22AD-D614-5B90-132DC723C38E</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D555A3CC-AA0A-562D-6649-653600413C02" referredColumn="2C6F8DEF-CEF4-1D7C-49C1-BC9749DD81AA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F932E3E3-0381-7649-A88B-286B04761F8E" name="matriculado_bootcamp_FK">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>7B42B2B9-4EFE-2800-02F3-740A0B238446</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5376EFA8-C7D5-3018-E35E-0330CE2DDC3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A2F4819-4D80-C8C4-2B23-2673D6816E42" name="matriculado_estudiante_FK">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>D2DE13D8-ED85-945B-7D91-BEFB409B5663</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B11A1B3-4EC3-DA4E-BA8B-C90FFB9202AD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0CB39063-7CBE-27C8-E999-7C7F59F9BB74" name="matriculado_pago_FK">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>3271DC0B-8A71-2227-839D-2AFFE0265F10</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D8E9BB9F-8D9C-91BC-73A6-08D1D30D7CAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

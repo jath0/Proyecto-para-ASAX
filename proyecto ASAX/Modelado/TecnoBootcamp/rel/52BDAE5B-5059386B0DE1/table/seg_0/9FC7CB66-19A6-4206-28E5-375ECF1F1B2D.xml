@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FC7CB66-19A6-4206-28E5-375ECF1F1B2D" name="bootcamp_estudiante">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>25E6DAB8-CCC0-6FF8-B6D4-FF66C98AAB0B</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="bootcamp_id_bootcamp" id="C8450B6C-056D-9F82-AA46-9D88D58F4633">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>B04B7443-2F6F-21A6-A4DD-C20DF831ADAB</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E17A7CBB-C1CA-53CB-57A0-DB5DEBBD48EA" referredColumn="02C09A8E-1F35-45BD-59FC-4A9FB67FF7D6"/>
+</associations>
+</Column>
+<Column name="estudiante_id_estudiante" id="5EF2B9E6-DF5B-055D-5E0B-C9AF2ECCC3A4">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>9A09851C-AD49-91CC-61D3-3DB6AC910FB1</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7CA57FAE-BC63-5C6D-5C66-900077D76DA1" referredColumn="AA76ED70-827C-F998-60B2-F33F38790669"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D7024057-5FF9-3BD5-1AA6-8DD44A625D5B" name="bootcamp_estudiante_bootc_FK">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>92C04DD8-EBDA-25B5-6232-E22EEB7040EB</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8450B6C-056D-9F82-AA46-9D88D58F4633"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="263A1CF6-A7F9-36E4-0043-1F90A8D15442" name="bootcamp_estudiante_estud_FK">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>FB47ADD4-67D0-391B-39B0-A0AA914B446B</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EF2B9E6-DF5B-055D-5E0B-C9AF2ECCC3A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

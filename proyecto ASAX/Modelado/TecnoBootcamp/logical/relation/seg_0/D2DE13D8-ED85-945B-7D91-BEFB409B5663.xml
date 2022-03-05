@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_23" directorySegmentName="seg_0" id="D2DE13D8-ED85-945B-7D91-BEFB409B5663">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:30:55 UTC</createdTime>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<engineerTo>
+<item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
+</engineerTo>
+<sourcePk>32FE1D13-C2F7-BA3B-120D-50288FAB6FBC</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>64570DCB-2F8F-7527-ADED-AE166C3360E5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3BB47F1D-FD34-EF4F-F45B-2B6ABE8BCD7D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -22,10 +22,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="enunciado" id="4289A2C1-FC33-DE11-A420-AD6757158200">
 <createdBy>usuario</createdBy>
@@ -34,10 +35,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>1200</dataTypeSize>
+<ownDataTypeParameters>1200,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="respuesta" id="042DAD4B-7FBB-AF10-6714-3D23DFC64182">
 <createdBy>usuario</createdBy>
@@ -46,10 +48,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>1200</dataTypeSize>
+<ownDataTypeParameters>1200,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="comentario" id="9A9B53B1-2349-E514-D2A9-06E63B2878D6">
 <createdBy>usuario</createdBy>
@@ -58,10 +61,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>1200</dataTypeSize>
+<ownDataTypeParameters>1200,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="estado" id="B1CDE01C-866C-A3DB-FAEA-D0822DCB923E">
 <createdBy>usuario</createdBy>
@@ -70,10 +74,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_módulo" id="9B2FD08E-B1C4-7FE8-25F6-D60869C9F33F">
 <createdBy>usuario</createdBy>
@@ -84,9 +89,10 @@
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
 <referedAttribute>900ED55C-7937-E2B8-68B3-AE1E19F27E46</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
+<dataTypeSize>4</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

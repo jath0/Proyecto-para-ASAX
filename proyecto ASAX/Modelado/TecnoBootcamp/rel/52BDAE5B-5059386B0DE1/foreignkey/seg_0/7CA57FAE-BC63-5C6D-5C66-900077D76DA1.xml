@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="7CA57FAE-BC63-5C6D-5C66-900077D76DA1" containerWithKeyObject="9FC7CB66-19A6-4206-28E5-375ECF1F1B2D" localFKIndex="263A1CF6-A7F9-36E4-0043-1F90A8D15442" name="bootcamp_estudiante_estud_FK">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>FB47ADD4-67D0-391B-39B0-A0AA914B446B</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<referredTableLongName>estudiante</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ECB4F77D-182F-7956-37B0-48726EC3C6F8</referredTableID>
+<keyObject>D54CB507-CCFC-3EE8-D6E9-EA8556C1F6E7</keyObject>
+<referredKeyID>D54CB507-CCFC-3EE8-D6E9-EA8556C1F6E7</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_estudiante</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

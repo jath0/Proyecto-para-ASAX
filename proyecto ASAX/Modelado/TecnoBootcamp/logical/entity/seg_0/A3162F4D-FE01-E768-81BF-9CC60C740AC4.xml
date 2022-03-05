@@ -22,10 +22,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="D1D6FB3C-CAB6-5561-BB4C-3DDE6968C1CF">
 <createdBy>admin</createdBy>
@@ -34,10 +35,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>DA4941E7-407B-7514-7DB3-AA2E60E8EADE</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="descripcion" id="7472C35A-2421-6611-4C90-886CFECABEE2">
 <createdBy>admin</createdBy>
@@ -46,10 +48,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="estado" id="DAA1EDCE-C815-0C22-CBA9-C7EAEBD9E152">
 <createdBy>usuario</createdBy>
@@ -58,10 +61,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_bootcamp" id="CD47D2AC-DB55-E751-30DE-274FCF0106DC">
 <createdBy>usuario</createdBy>
@@ -72,9 +76,10 @@
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
 <referedAttribute>B30A8367-EEB6-48CB-2127-9C0AA70A8D1C</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
+<dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

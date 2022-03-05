@@ -22,10 +22,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_estudiante" id="A08784F9-A41F-4093-F163-046662BC12D1">
 <createdBy>usuario</createdBy>
@@ -36,9 +37,10 @@
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
 <referedAttribute>63C7621C-2020-E44A-6CF3-84286A90AE8B</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
+<dataTypeSize>16</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_tarjeta" id="30B48095-8BD4-E7E1-C58D-0A6A778F7F5D">
@@ -50,9 +52,10 @@
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
 <referedAttribute>FE0DBC03-C6CE-9DC5-A620-D9CFB0E7D8CB</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
+<dataTypeSize>256</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="login_paypal" id="826DD1DE-462F-0043-57C4-26F18B4DF877">
@@ -64,10 +67,11 @@
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
 <referedAttribute>E6972DEF-85CC-6DF9-B25D-60B93A434750</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>558B949B-C694-B32A-B25B-7D9F52FA395A</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

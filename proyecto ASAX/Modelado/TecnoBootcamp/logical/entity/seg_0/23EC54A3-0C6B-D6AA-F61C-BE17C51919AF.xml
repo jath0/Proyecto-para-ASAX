@@ -24,10 +24,10 @@
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>0</use>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nombre" id="C77CA8D1-F153-CC8F-D1E3-BF9C4AA6CD52">
 <createdBy>admin</createdBy>
@@ -37,10 +37,10 @@
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>0</use>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>DA4941E7-407B-7514-7DB3-AA2E60E8EADE</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="apellidos" id="0B5A15C9-3997-3E1B-9F65-9E5BB539C17B">
 <createdBy>admin</createdBy>
@@ -50,10 +50,10 @@
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>0</use>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>4F969421-098F-FD9D-11AE-5A99FA2EDC6A</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="email" id="B2F3F2CC-600F-4DEE-F8E5-4DAC99592F0F">
 <createdBy>admin</createdBy>
@@ -63,10 +63,10 @@
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
-<use>0</use>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>558B949B-C694-B32A-B25B-7D9F52FA395A</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="otros_detalles" id="973C79C1-7853-8E8F-45D8-3B5443A98934">
 <createdBy>usuario</createdBy>
@@ -75,10 +75,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_bootcamp" id="251DDFA6-E0A4-997C-167C-8905A52874BD">
 <createdBy>usuario</createdBy>
@@ -89,9 +90,10 @@
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
 <referedAttribute>B30A8367-EEB6-48CB-2127-9C0AA70A8D1C</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
+<dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

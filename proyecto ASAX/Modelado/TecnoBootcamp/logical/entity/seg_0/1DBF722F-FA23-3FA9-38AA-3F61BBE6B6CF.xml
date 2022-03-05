@@ -22,10 +22,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>256</dataTypeSize>
+<ownDataTypeParameters>256,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="estado" id="3ED1DC9F-8C49-4189-E6D6-28BF750204DC">
 <createdBy>usuario</createdBy>
@@ -34,10 +35,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="fecha _pago" id="8F1694F3-D563-7618-642D-142EA5F58232">
 <createdBy>usuario</createdBy>
@@ -46,9 +48,9 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT007</logicalDatatype>
-<domain>70C7649C-89C1-4953-26D5-A51EADE2A6FF</domain>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="precio_bootcamp" id="DB685F1D-A003-F2B1-C58B-2F9A30A93E0A">
@@ -58,10 +60,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="otros detalles" id="D84E23FF-A5F9-04AB-2F3C-159DDB84B361">
 <createdBy>usuario</createdBy>
@@ -70,10 +73,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>73D2A078-4C34-91C3-F50A-0A9DD87E0601</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="moneda" id="69AA9043-7986-2A97-0496-73E26E80AAED">
 <createdBy>usuario</createdBy>
@@ -82,10 +86,11 @@
 <engineerTo>
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>DA4941E7-407B-7514-7DB3-AA2E60E8EADE</domain>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_estudiante" id="B298E8BD-7B06-115A-84CF-1F847567A4C2">
 <createdBy>usuario</createdBy>
@@ -96,9 +101,10 @@
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
 <referedAttribute>63C7621C-2020-E44A-6CF3-84286A90AE8B</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
+<dataTypeSize>16</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="id_bootcamp" id="1134306E-FBBA-F132-88DD-4F85FB531630">
@@ -110,9 +116,10 @@
 <item key="52BDAE5B-5C19-22AE-D7C5-5059386B0DE1" value="true"/>
 </engineerTo>
 <referedAttribute>B30A8367-EEB6-48CB-2127-9C0AA70A8D1C</referedAttribute>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<domain>7DF4A068-136C-791B-DD11-068254102FF5</domain>
+<dataTypeSize>2</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

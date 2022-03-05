@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EC50CD6E-5C7C-A36F-877B-D043B36ECE4D" containerWithKeyObject="D763D2FE-5E3B-28B4-3899-C312920B53A6" localFKIndex="69EB5065-BBD5-E672-87B8-A3185A2FC8AC" name="metodo_pago_paypal_FK">
+<createdBy>jath-host</createdBy>
+<createdTime>2022-03-05 12:46:24 UTC</createdTime>
+<generatorID>FE2174DE-6F5A-5307-87EB-AACDF8288832</generatorID>
+<ownerDesignName>TecnoBootcamp</ownerDesignName>
+<referredTableLongName>paypal</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E81C7799-5076-8248-2ACF-D3BB98FC051E</referredTableID>
+<keyObject>98B2246D-4B7F-D4D5-2F6C-ECE0011FAB52</keyObject>
+<referredKeyID>98B2246D-4B7F-D4D5-2F6C-ECE0011FAB52</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>login_paypal</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
