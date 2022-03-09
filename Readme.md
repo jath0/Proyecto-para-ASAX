@@ -14,7 +14,7 @@ Este repositorio ha sido creado para complementar un trabajo para la asignatura 
 
 ## BASE DE DATOS TECNOBOOTCAMP
 
-Es una base de datos que incluye las tablas básicas en mi opinión, para la gestión de una web que ofrezca cursos de informática. Tiene un apartado referente a los estudiantes, profesores, pagos, cursos ofrecidos y una parte también dedicada a los ejercicios.
+Es una base de datos que incluye las tablas básicas, en mi opinión, para la gestión de una web que ofrezca cursos de informática. Tiene un apartado referente a los estudiantes, profesores, pagos, cursos ofrecidos y una parte también dedicada a los ejercicios.
 
 ## Modelado
 El [modelado](https://github.com/jath0/Proyecto-para-ASAX/tree/master/proyecto%20ASAX/Modelado) se ha llevado ha hecho con el programa *SQL DATAMODELER*.
