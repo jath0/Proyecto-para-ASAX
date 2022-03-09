@@ -1,7 +1,12 @@
 # Proyecto BBDD Bootcamp
 
-Este repositorio ha sido creado para complementar un trabajo para la asignatura de Gestión de bases de datos del 2º año de ASIR.
+Este repositorio ha sido creado para complementar un proyecto para la asignatura de Gestión de bases de datos del 2º año de ASIR, consta de varias partes:
 
+* Instalación y conexión de Sql server en diferentes SO
+* Instalación y conexión Oracle Sql con SQL server.
+* Uso de Oracle Tools
+* Modelado de una base de datos
+* Aplicación de conocimientos obtenidos en 1ª y 2ª evaluación a nuestra base de datos.
 -----
 
 ## Índice
