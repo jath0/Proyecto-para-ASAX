@@ -23,7 +23,7 @@ Es una base de datos que incluye las tablas básicas, en mi opinión, para la ge
 
 ## Modelado
 El [modelado](https://github.com/jath0/Proyecto-para-ASAX/tree/master/proyecto%20ASAX/Modelado) se ha llevado ha hecho con el programa *SQL DATAMODELER*.
-El archivo [TecnoBootcamp.dmd] (https://github.com/jath0/Proyecto-para-ASAX/blob/master/proyecto%20ASAX/Modelado/TecnoBootcamp.dmd) es el script exportado del programa SQL Datamodeler y la carpeta TecnoBootcamp es el proyecto de Datamodeler.
+El archivo [TecnoBootcamp_script.ddl] (https://github.com/jath0/Proyecto-para-ASAX/blob/master/proyecto%20ASAX/bootcamp_script.ddl) es el script exportado del programa SQL Datamodeler y la carpeta TecnoBootcamp es el proyecto de Datamodeler.
 
 ![Modelado lógico: ](https://github.com/jath0/Proyecto-para-ASAX/blob/master/proyecto%20ASAX/Logical.png)
 
